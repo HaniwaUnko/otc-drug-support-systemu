@@ -1,0 +1,34 @@
+{
+  "drugs": [
+    {
+      "id": 1,
+      "name": "パブロンゴールドA",
+      "category": "風邪薬",
+      "description": "風邪の諸症状を緩和する総合感冒薬です。",
+      "pharmacy": "さくら薬局",
+      "stock": 10,
+      "incompatible_meds": ["ワルファリン"],
+      "incompatible_supplements": ["セントジョーンズワート"]
+    },
+    {
+      "id": 2,
+      "name": "ロキソニンS",
+      "category": "解熱鎮痛薬",
+      "description": "頭痛・生理痛などに効く鎮痛薬。",
+      "pharmacy": "あおば薬局",
+      "stock": 5,
+      "incompatible_meds": ["アスピリン喘息"],
+      "incompatible_supplements": []
+    },
+    {
+      "id": 3,
+      "name": "サンテFXネオ",
+      "category": "目薬",
+      "description": "疲れ目やかすみ目に。清涼感のある目薬。",
+      "pharmacy": "ひまわりドラッグ",
+      "stock": 15,
+      "incompatible_meds": [],
+      "incompatible_supplements": []
+    }
+  ]
+}
